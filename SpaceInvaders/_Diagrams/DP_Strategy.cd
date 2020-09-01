@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.BombCategory" Collapsed="true">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Bombs\BombCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Bomb">
+    <Position X="1" Y="2.25" Width="1.5" />
+    <Members>
+      <Method Name="Bomb" Hidden="true" />
+      <Method Name="GetBoundingBoxHeight" Hidden="true" />
+      <Method Name="MultiplyScale" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+      <Method Name="Reset" Hidden="true" />
+      <Method Name="SetPos" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAAABAAACAAABAAABAAAAAAAIAAAAEAAAAA=</HashCode>
+      <FileName>GameObject\Bombs\Bomb.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pStrategy" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.FallStrategy">
+    <Position X="3.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Bombs\FallStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.FallStraight" Collapsed="true">
+    <Position X="1.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAgAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Bombs\FallStraight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.FallRolling" Collapsed="true">
+    <Position X="3.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAgAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Bombs\FallRolling.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.FallZigZag" Collapsed="true">
+    <Position X="5.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAgAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Bombs\FallZigZag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

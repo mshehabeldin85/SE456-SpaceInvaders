@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.GameSpriteMan">
+    <Position X="1.5" Y="1.25" Width="1.5" />
+    <Members>
+      <Method Name="Add" Hidden="true" />
+      <Method Name="derivedCompare" Hidden="true" />
+      <Method Name="derivedCreateNode" Hidden="true" />
+      <Method Name="derivedDumpNode" Hidden="true" />
+      <Method Name="derivedWash" Hidden="true" />
+      <Method Name="Destroy" Hidden="true" />
+      <Method Name="Dump" Hidden="true" />
+      <Method Name="Find" Hidden="true" />
+      <Method Name="GameSpriteMan" Hidden="true" />
+      <Field Name="pActiveGSMan" Hidden="true" />
+      <Field Name="poNodeCompare" Hidden="true" />
+      <Method Name="privGetInstance" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+      <Method Name="SetActive" Hidden="true" />
+    </Members>
+    <AssociationLine Name="pInstance" Type="SpaceInvaders.GameSpriteMan" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3" Y="2.153" />
+        <Point X="3.375" Y="2.153" />
+        <Point X="3.375" Y="0.875" />
+        <Point X="2.188" Y="0.875" />
+        <Point X="2.188" Y="1.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ABIAAAEAAAAAEAAAAAABhAAAAABIAFAAAAACAIAACAA=</HashCode>
+      <FileName>Manager\GameSpriteMan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pInstance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.BoxSpriteMan">
+    <Position X="4" Y="1.25" Width="1.5" />
+    <Members>
+      <Method Name="Add" Hidden="true" />
+      <Method Name="BoxSpriteMan" Hidden="true" />
+      <Method Name="derivedCompare" Hidden="true" />
+      <Method Name="derivedCreateNode" Hidden="true" />
+      <Method Name="derivedDumpNode" Hidden="true" />
+      <Method Name="derivedWash" Hidden="true" />
+      <Method Name="Destroy" Hidden="true" />
+      <Method Name="Dump" Hidden="true" />
+      <Method Name="Find" Hidden="true" />
+      <Field Name="poNodeCompare" Hidden="true" />
+      <Method Name="privGetInstance" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+    </Members>
+    <AssociationLine Name="pInstance" Type="SpaceInvaders.BoxSpriteMan" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.5" Y="2" />
+        <Point X="5.875" Y="2" />
+        <Point X="5.875" Y="0.875" />
+        <Point X="4.875" Y="0.875" />
+        <Point X="4.875" Y="1.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ABIAAAAAAAAAEAAAAAABhAAAAABIAFAAAAACAAAACAA=</HashCode>
+      <FileName>Manager\BoxSpriteMan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pInstance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.ImageMan">
+    <Position X="5.25" Y="3.25" Width="1.5" />
+    <Members>
+      <Method Name="Add" Hidden="true" />
+      <Method Name="derivedCompare" Hidden="true" />
+      <Method Name="derivedCreateNode" Hidden="true" />
+      <Method Name="derivedDumpNode" Hidden="true" />
+      <Method Name="derivedWash" Hidden="true" />
+      <Method Name="Destroy" Hidden="true" />
+      <Method Name="Dump" Hidden="true" />
+      <Method Name="Find" Hidden="true" />
+      <Method Name="ImageMan" Hidden="true" />
+      <Field Name="poNodeCompare" Hidden="true" />
+      <Method Name="privGetInstance" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+    </Members>
+    <AssociationLine Name="pInstance" Type="SpaceInvaders.ImageMan" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.75" Y="4.028" />
+        <Point X="7.125" Y="4.028" />
+        <Point X="7.125" Y="2.875" />
+        <Point X="6.25" Y="2.875" />
+        <Point X="6.25" Y="3.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ABIAAAAAAAAAEAAAAAABhAAAAABIAFAAAAACAAAACAA=</HashCode>
+      <FileName>Manager\ImageMan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pInstance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.TextureMan">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <Members>
+      <Method Name="Add" Hidden="true" />
+      <Method Name="derivedCompare" Hidden="true" />
+      <Method Name="derivedCreateNode" Hidden="true" />
+      <Method Name="derivedDumpNode" Hidden="true" />
+      <Method Name="derivedWash" Hidden="true" />
+      <Method Name="Destroy" Hidden="true" />
+      <Method Name="Dump" Hidden="true" />
+      <Method Name="Find" Hidden="true" />
+      <Field Name="poNodeCompare" Hidden="true" />
+      <Method Name="privGetInstance" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+      <Method Name="TextureMan" Hidden="true" />
+    </Members>
+    <AssociationLine Name="pInstance" Type="SpaceInvaders.TextureMan" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.25" Y="4.188" />
+        <Point X="4.625" Y="4.188" />
+        <Point X="4.625" Y="3.125" />
+        <Point X="3.625" Y="3.125" />
+        <Point X="3.625" Y="3.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ABIAAAAAAAAAEAAAAAABhAAAAABIAFAAAAACAAAACAA=</HashCode>
+      <FileName>Manager\TextureMan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pInstance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.ProxySpriteMan">
+    <Position X="6.5" Y="1.25" Width="1.5" />
+    <Members>
+      <Method Name="Add" Hidden="true" />
+      <Method Name="derivedCompare" Hidden="true" />
+      <Method Name="derivedCreateNode" Hidden="true" />
+      <Method Name="derivedDumpNode" Hidden="true" />
+      <Method Name="derivedWash" Hidden="true" />
+      <Method Name="Destroy" Hidden="true" />
+      <Method Name="Dump" Hidden="true" />
+      <Method Name="Find" Hidden="true" />
+      <Field Name="poNodeCompare" Hidden="true" />
+      <Method Name="privGetInstance" Hidden="true" />
+      <Method Name="ProxySpriteMan" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+    </Members>
+    <AssociationLine Name="pInstance" Type="SpaceInvaders.ProxySpriteMan" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8" Y="2" />
+        <Point X="8.375" Y="2" />
+        <Point X="8.375" Y="0.875" />
+        <Point X="7.438" Y="0.875" />
+        <Point X="7.438" Y="1.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ABIAAAAAAAAAEAAAAAABhAAAAABIAFAAAAACAAAACAA=</HashCode>
+      <FileName>Manager\ProxySpriteMan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pInstance" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
