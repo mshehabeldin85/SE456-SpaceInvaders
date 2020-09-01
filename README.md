@@ -1,7 +1,7 @@
 # Space Invaders Game
 Space Invaders game clone using Object Oriented Design Patterns. This project is a perfect application of 13 Design Patterns inplemented to solve many challenging problems.
 
-# Demos:
+# Demos
 This [Youtube Demos Playlist](https://www.youtube.com/playlist?list=PLiPAB5oCbbf-YwGOv26o44cnh6UF4SNt_) explains how the game components are implemented iteratively until achiveing the final product.
 
 # Patterns used and their purposes
